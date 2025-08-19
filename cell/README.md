@@ -7,4 +7,10 @@
 1. torchvision 0.22.1
 1. pandas 2.3.0
 ## 流程圖
-![这是图片](/流程圖.jpg)
+![圖片](/cell/流程圖.jpg)
+## 使用方法
+```
+./main.py --mix_dir 圖片位置
+#example python main.py --mix_dir ./4/4_channel_mix.tif
+```
+

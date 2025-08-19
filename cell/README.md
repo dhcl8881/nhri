@@ -9,8 +9,18 @@
 ## 流程圖
 ![圖片](/cell/流程圖.jpg)
 ## 使用方法
+先下載模型參數
+stage1模型參數 https://drive.google.com/file/d/1XNjVBBhplQ0WfAXGde6miDq-deYH4gTz/view?usp=sharing
+stage2模型參數 https://drive.google.com/file/d/1tXKcYGA_5wFxG2nL_ByL_E4cYYiAj3U8/view?usp=sharing
+下載後解壓到cell資料夾下
+
 ```
+cd ./nhri/cell  #進入cell資料夾
 ./main.py --mix_dir 圖片位置
 #example python main.py --mix_dir ./4/4_channel_mix.tif
 ```
-
+會在sample資料夾產生每個細胞的細胞質分割範圍<br>
+![圖片](/cell/sample/0.jpg)<br>
+會在test資料夾產生整張圖片細胞的細胞質分割範圍和csv檔，csv檔內有每個細胞的細胞核面積和細胞質面積和胞質比。csv檔內最後一項為平均值
+![圖片](/cell/test/test.jpg)<br>
+## 實驗結果

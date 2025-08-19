@@ -1,0 +1,2 @@
+macrophage數量:28
+neutrophil數量:12

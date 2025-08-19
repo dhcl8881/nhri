@@ -1,9 +1,5 @@
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
-import operator
-from functools import reduce
-import math
 from utils import sortPoints,greenandred,find,inorout
 import argparse
 

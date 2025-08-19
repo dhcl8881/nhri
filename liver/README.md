@@ -8,3 +8,5 @@ cd ./nhri/liver  #進入liver資料夾
 ./main.py --mix_dir 圖片位置
 #example python main.py --mix_dir ./1/1_channel_mix.tif
 ```
+## 實驗結果
+在result產生

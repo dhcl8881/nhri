@@ -10,4 +10,4 @@ cd ./nhri/liver1  #進入liver1資料夾
 ```
 ## 實驗結果
 產生output顯示肝臟範圍 <br>
-![圖片](.output.jpg)
+![圖片](./output.jpg)

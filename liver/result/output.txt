@@ -1,2 +1,2 @@
-macrophage數量:28
-neutrophil數量:12
+macrophage count:28
+neutrophil count:12

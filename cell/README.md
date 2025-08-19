@@ -9,9 +9,9 @@
 ## 流程圖
 ![圖片](/cell/流程圖.jpg)
 ## 使用方法
-先下載模型參數
-stage1模型參數 https://drive.google.com/file/d/1XNjVBBhplQ0WfAXGde6miDq-deYH4gTz/view?usp=sharing
-stage2模型參數 https://drive.google.com/file/d/1tXKcYGA_5wFxG2nL_ByL_E4cYYiAj3U8/view?usp=sharing
+先下載模型參數<br>
+stage1模型參數 https://drive.google.com/file/d/1XNjVBBhplQ0WfAXGde6miDq-deYH4gTz/view?usp=sharing <br>
+stage2模型參數 https://drive.google.com/file/d/1tXKcYGA_5wFxG2nL_ByL_E4cYYiAj3U8/view?usp=sharing <br>
 下載後解壓到cell資料夾下
 
 ```
@@ -24,3 +24,4 @@ cd ./nhri/cell  #進入cell資料夾
 會在test資料夾產生整張圖片細胞的細胞質分割範圍和csv檔，csv檔內有每個細胞的細胞核面積和細胞質面積和胞質比。csv檔內最後一項為平均值
 ![圖片](/cell/test/test.jpg)<br>
 ## 實驗結果
+![圖片](/cell/result.jpg)<br>

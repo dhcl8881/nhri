@@ -63,9 +63,9 @@ if __name__ == '__main__':
     #cv2.imwrite("white.jpg", th1)
     path = './result/output.txt'
     f = open(path, 'w')
-    f.write('macrophage數量:'+str(len(new_red_cnt_mean))+'\n')
+    f.write('macrophage count:'+str(len(new_red_cnt_mean))+'\n')
     #f.write(len(new_red_cnt_mean))
-    f.write('neutrophil數量:'+str(len(new_green_cnt_mean)))
+    f.write('neutrophil count:'+str(len(new_green_cnt_mean)))
     #f.write(len(new_green_cnt_mean))
     f.close()
     #cv2.imwrite("gray.jpg", img)

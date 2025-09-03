@@ -17,6 +17,7 @@ stage2模型參數 https://drive.google.com/file/d/1tXKcYGA_5wFxG2nL_ByL_E4cYYiA
 ```
 cd ./nhri/cell  #進入cell資料夾
 ./main.py --mix_dir 圖片位置
+#注意 圖片檔名不能有空白 ex: channel red.jpg 檔名有空白會報錯
 #example python main.py --mix_dir ./4/4_channel_mix.tif
 ```
 會在sample資料夾產生每個細胞的細胞質分割範圍<br>
